@@ -1,0 +1,103 @@
+@import '~antd-mobile/dist/antd-mobile.css';
+
+.App {
+  text-align: center;
+    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 300px;
+    padding: 0;
+}
+
+.Page-Image{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+
+
+}
+.App-Nav{
+    background-color: #177cb0;
+    color: white;
+    height: 10vw;
+
+}
+.Side-List{
+    max-width: 70vw;
+}
+
+.custom-pagination-with-icon .am-pagination-wrap-btn-prev .am-button-inline{
+    padding-left: 0;
+    padding-right: 10px;
+
+}
+.custom-pagination-with-icon .am-pagination-wrap-btn-next .am-button-inline{
+    padding-left: 10px;
+    padding-right: 0;
+
+}
+.arrow-align {
+    display: flex;
+    align-items: center;
+}
+.sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+}
+
+.pagination-container{
+    z-index: 999;
+
+
+}
+.img-relative{
+    background-color: white;
+}
+
+.secondMenu{
+    text-align: right;
+    font-size: 10px;
+}
+.firstMenu{
+    font-weight: 700;
+    line-break: strict;
+    word-wrap:break-word;
+    /*text-overflow:ellipsis;*/
+    height: 10vw;
+}
